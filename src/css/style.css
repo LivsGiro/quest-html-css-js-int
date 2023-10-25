@@ -1,0 +1,111 @@
+main{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 402px;
+}
+
+.corpo-principal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 402px;
+    align-items: center;
+}
+
+
+.texto{
+    width: 300px;
+    height: 111px;
+    flex-direction: column;
+    flex: 1;
+}
+
+.texto h1{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #ffffff;
+}
+
+.texto p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.58px;
+    color: #ffffff;
+    margin-top: 11px;
+}
+
+.formulario{
+    max-height: 378px;
+    max-width: 340px;
+    display: flex;
+    background-color: #ffffff;
+    flex: 1;
+    box-sizing: border-box;
+    padding: 21px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-text{
+    border-radius: 5px;
+    border-color: #000000;
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+    border: 1px solid;
+}
+
+::placeholder {
+    font-size: 15px;
+    font-weight: 700;
+    color: #A8A8A8;
+    padding-left: 10px;
+}
+
+.campo-obrigatorio{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+    color: #000000;
+}
+
+.cx-texto{
+    width: 100%;
+    height: 100px;
+    border: 1px solid;
+}
+
+#enviar{
+    background-color: #3CCC87;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.58px;
+    color: #ffffff;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-valido{
+	border: 1px solid rgb(60, 214, 60);
+}
+
+.input-invalido {
+    border: 1px solid #F52E2E;
+}
+
+.error-message {
+    color: #F52E2E;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+
+

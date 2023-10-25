@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest HTML - CSS - JS - INTERMEDIÁRIO</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <div class="corpo-principal">
+            <div class="texto"> 
+                <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+                <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>          
+            </div>
+            <div class="formulario" >
+                <form method="get" action="index.html" novalidate>
+                    <input type="text" class="input-text" name="nome" id="nome" placeholder="Nome completo *">
+                    <input type="text" class="input-text" name="email" id="email" placeholder="E-mail *">
+                    <input type="text" class="input-text" name="telefone" id="telefone" placeholder="Telefone *">
+                    <textarea name="caixa-de-texto" class="input-text cx-texto" id="caixa-de-texto" cols="30" rows="7" placeholder="Mensagem *"></textarea>
+                    <p class="campo-obrigatorio">* campos obrigatórios</p>
+                    <input type="submit" value="Enviar" id="enviar">
+                </form>
+            </div>
+        </div>
+      
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
